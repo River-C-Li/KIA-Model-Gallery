@@ -1,6 +1,7 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    /* color:rgb(224, 231, 236); */
+    /* font-size: 18px; font: width 130%; font: height 90%; */
    
 }
 html body {
@@ -14,7 +15,7 @@ html body {
     top: 0px;
     line-height: 3.7rem;
     padding: 1em 3rem;
-
+    /* text-transform: uppercase; */
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
@@ -65,16 +66,17 @@ html body {
     align-items: center;
   }
 
+
   .col-lg{
       height: 300px;
       overflow: hidden;
       margin: 20px 0;
       position: relative;
       flex-basis: 30%;
-      border-radius: 10px;
+      /* border-radius: 10px; */
   }
   
-   
+    
   .col-lg img{
     display:flex;
       position: absolute;
@@ -87,16 +89,39 @@ html body {
       min-width: 100%;
   }
   .col-lg:hover{
-    position: relative;
-    z-index: 50;
-    height:700px;
+    transform: scaleX(1.05) scaleY(1.05);   
+    transform-origin: center;
+    transition: transform .3s ease-in-out;
+  
   }
+  .col-lg:active {
+    position: absolute;;
+    z-index: 50;
+    height:800px;
+    width:1400px;
+    transition: 1s;
+    transform-origin: bottom;
+   }
+
+  /* .col-lg:focus {
+     position: absolute;;
+    z-index: 50;
+    height:800px;
+    width:1400px;
+  }
+  .col-lg:target {
+    position: absolute;;
+    z-index: 50;
+    height:800px;
+    width:1400px;
+  }   */
+
   .imgrid {
     display: flex;
     flex-wrap: wrap;
     width:100%;
     justify-content: space-evenly;
-    background-color: #000000;
+    /* background-color: #000000; */
   }
 
   #image-to-show{
@@ -136,8 +161,9 @@ html body {
 
   #all-results{
     display:flex;
-    justify-content: center;
-    width:100%;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
   }
   #backtofull{
     position: relative;
