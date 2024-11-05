@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KIA Carnival Gallery</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header >
+    <nav id="mustmenu" style="color:rgb(252, 251, 251)">HERE IS KIA LOGO AND TOP MENU. THIS IS A CAR MODEL Gallery.</nav>
+  </header>
+  <nav id="order-menu">
+  
+      <div class="subnav" >
+        <a href="./kiahome.html">2025 Carnival
+        </a>
+      </div>
+      <div class="subnav"><a href="./kiahome.html">
+        Overview 
+      </a>
+      </div>
+      <div class="subnav"><a href="./kiahome.html">
+        Specs </a>
+
+      </div>
+      <div class="subnav"><a href="./index.html">
+        Gallery  </a>
+      </div>
+      <div class="subnav"><a href="./kiahome.html">
+        Features</a>
+      </div>
+      <div class="subnav"><a href="./kiahome.html">
+        Offers</a>
+      </div>
+      <div class="subnav"><a href="./kiahome.html">
+        Build</a>
+      </div>
+
+  </nav>
+  <main> 
+    <div id="heading" style="height:120px">
+      <h1 style="color: rgb(5, 5, 5);; font-size:46px"> 2025 Carnival Gallery</h1>
+    </div>
+    
+    <section id="gallery">
+    <div id="all-options" class="all-options">
+      <button id="leftbutton"  onClick="show(1)">  Previous </button>
+     
+      <div id="singleimg">
+         
+        <img id="image-to-show" class=""></img>
+        <button id="allpic" onClick="showHistoricPic()">Full Gallery </button>
+      </div>
+      <button   id="rightbutton"  onClick="show(-1)">Next </button>
+    </div>
+
+    <div id="all-results" class="all-results">
+      <button id="backtofull"  onClick="showAllOptions()">Back To Full Picture</button>
+     
+      <div id="grid" class="imgrid">
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <script src="./index.js"></script>
+  <script src="./exportone.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
+  <!-- cdn for axios like bootstrap -->
+</body>
+
+</html>

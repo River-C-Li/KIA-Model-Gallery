@@ -1,0 +1,179 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color:rgb(224, 231, 236); */
+    /* font-size: 18px; font: width 130%; font: height 90%; */
+   
+}
+html body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+#order-menu a {
+    position: sticky;
+    top: 0px;
+    line-height: 3.7rem;
+    padding: 1em 3rem;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  } 
+
+  #order-menu{
+    display:flex;
+    justify-content: center;
+  position:sticky;
+  top:0px;
+    height: 4rem;
+    z-index: 100;   
+ align-items: center; 
+    background-color: rgb(150, 131, 91);
+}
+  #order-menu a:hover {
+    background-color: #c4bbaa;
+    border-bottom: 4px solid rgb(178, 25, 25);
+  }
+  #mustmenu {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  main {
+    display:block;
+    width:100%;
+    justify-content: center;
+    background-color: #c4bbaa;
+  }
+  #gallery, #all-options, #heading {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #all-options{
+    gap:20px;
+  }
+  
+
+  #singleimg{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+/* .maincontent{
+    padding-top: 0%;
+    padding-left:0%;
+  } */
+ 
+  .red {
+    /* border-color: red ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
+  .green {
+    /* border-color: green ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
+  .col {
+    /* border-color: red ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
+  .col-lg{
+      height: 300px;
+      overflow: hidden;
+      margin: 20px 0;
+      position: relative;
+      flex-basis: 30%;
+      border-radius: 10px;
+  }
+  
+    /* Images crop and center to col-lg box up to 1000% centering (if 100% if it's 3x the size it doesn't fully center)Idk man why? projectors and stuff? */
+  .col-lg img{
+    display:flex;
+      position: absolute;
+      left: -1000%;
+      right: -1000%;
+      top: -1000%;
+      bottom: -1000%;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+  }
+  .col-lg:hover{
+    position: relative;
+    z-index: 50;
+    height:700px;
+  }
+  .imgrid {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: #000000;
+  }
+
+  #image-to-show{
+    width:1300px;
+    height: 700px;
+    border-radius: 20px;
+  }
+
+  #leftbutton, #rightbutton {
+    background-color: rgb(118, 117, 117);
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    font-size: 11px;
+    color:rgb(252, 251, 251);
+    border:none;
+  }
+   
+
+  #leftbutton:hover, #rightbutton:hover {
+    background-color:rgb(150, 131, 91);
+  }
+  #allpic{
+    background-color:   rgb(150, 131, 91);
+    border-radius: 30px;
+    width:250px;
+    height:30px;
+    font-size: 15px;
+   position:relative;
+    bottom:40px;
+    color:rgb(255, 254, 254);
+    border:1px solid white;
+  }
+  #allpic:hover{
+    background-color:   rgb(121, 106, 73);
+  }
+
+  #all-results{
+    display:flex;
+    justify-content: center;
+    width:100%;
+  }
+  #backtofull{
+    position: relative;
+    left:46%;
+    padding:0 30px 0 30px;
+    margin-bottom: 20px;
+  border-radius: 20px;
+  border: none;
+    height:35px;
+    background-color:   rgb(118, 117, 117);
+    color:rgb(252, 251, 251);
+  }
+  #backtofull:hover{
+    background-color:  rgb(147, 147, 147); 
+  }
