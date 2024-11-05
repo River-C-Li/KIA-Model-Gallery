@@ -1,6 +1,6 @@
 # KIA-Model-Gallery
-AJAX (Asynchronous JavaScript and XML )
-Author: River Li
+AJAX (Asynchronous JavaScript and XML ).
+Author: River Li.
 Tools:JavaScript, HTML, CSS,
 Description:
  This is a car model gallery,the main section includes a major picture display area and three buttons, each for left and right sides, for user to explore new image. 
