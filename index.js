@@ -38,12 +38,7 @@ async function showHistoricPic() //////#5 code execution:click the button to sho
             
     let gridCell = document.createElement('div');
     
-      // if(showData.value<0)
-      // {
-      //   gridCell.classList.add('red') 
-      // } else {
-      //   gridCell.classList.add('green')
-      // }
+ 
       
     gridCell.classList.add('col-lg');
 
