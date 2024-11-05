@@ -1,7 +1,6 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* color:rgb(224, 231, 236); */
-    /* font-size: 18px; font: width 130%; font: height 90%; */
+
    
 }
 html body {
@@ -15,7 +14,7 @@ html body {
     top: 0px;
     line-height: 3.7rem;
     padding: 1em 3rem;
-    /* text-transform: uppercase; */
+
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
@@ -75,7 +74,7 @@ html body {
       border-radius: 10px;
   }
   
-    /* Images crop and center to col-lg box up to 1000% centering (if 100% if it's 3x the size it doesn't fully center)Idk man why? projectors and stuff? */
+   
   .col-lg img{
     display:flex;
       position: absolute;
