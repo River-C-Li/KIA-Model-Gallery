@@ -49,14 +49,18 @@ html body {
     justify-content: center;
     background-color: #c4bbaa;
   }
-  #gallery, #all-options, #heading {
+  #gallery,  #heading {
     display:flex;
     width:100%;
     justify-content: center;
     align-items: center;
   }
   #all-options{
-    gap:20px;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
   }
   
 
@@ -66,7 +70,29 @@ html body {
     align-items: center;
   }
 
-
+/* .maincontent{
+    padding-top: 0%;
+    padding-left:0%;
+  } */
+ 
+  .red {
+    /* border-color: red ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
+  .green {
+    /* border-color: green ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
+  .col {
+    /* border-color: red ; */
+    /* padding: 1%; */
+    /* border-style: solid;
+    border-width: medium; */
+  }
   .col-lg{
       height: 300px;
       overflow: hidden;
@@ -75,8 +101,7 @@ html body {
       flex-basis: 30%;
       /* border-radius: 10px; */
   }
-  
-    
+
   .col-lg img{
     display:flex;
       position: absolute;
@@ -129,7 +154,7 @@ html body {
     height: 700px;
     border-radius: 20px;
   }
-
+/* 
   #leftbutton, #rightbutton {
     background-color: rgb(118, 117, 117);
     width:50px;
@@ -139,11 +164,10 @@ html body {
     color:rgb(252, 251, 251);
     border:none;
   }
-   
-
   #leftbutton:hover, #rightbutton:hover {
     background-color:rgb(150, 131, 91);
-  }
+  } */
+
   #allpic{
     background-color:   rgb(150, 131, 91);
     border-radius: 30px;
@@ -179,3 +203,41 @@ html body {
   #backtofull:hover{
     background-color:  rgb(147, 147, 147); 
   }
+
+
+  
+/* below important for arrow indicator*/
+button.slide__prev
+ {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  /* left: 6%; */
+}
+
+button.slide__next
+{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* right: 4%; */
+}
+.slide__prev,
+.slide__next {
+  /* position: absolute; */
+  /* top: 48%; */
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  background-color:  #c4bbaa;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+/* above important */
+.slide__prev:hover,
+.slide__next:hover {
+  border: solid  rgb(150, 131, 91);
+
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
